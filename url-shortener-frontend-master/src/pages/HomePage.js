@@ -23,7 +23,7 @@ const HomePage = () => {
   let uploadLink = async (e)=> {
     e.preventDefault()
     
-       let response =  await fetch('http://127.0.0.1:8000/post-link', {
+       let response =  await fetch('https://u-zuxr.onrender.com/post-link', {
            method: "POST",
            credentials: "include",
            headers: {
