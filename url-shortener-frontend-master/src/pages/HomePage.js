@@ -73,7 +73,7 @@ const HomePage = () => {
           
          </div>
          </form>
-         {loaded ? <h2>http://127.0.0.1:8000/{code }</h2> : null}
+         {loaded ? <h2>https://u-zuxr.onrender.com/{code }</h2> : null}
          </div>
     
          <br/><br/>
